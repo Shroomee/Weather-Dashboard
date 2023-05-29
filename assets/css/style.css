@@ -13,8 +13,39 @@ header {
 }
 
 header h1 {
-    font-size: 24px;
+    font-size: 50px;
+    margin-top: 5px;
     margin-bottom: 5px;
     background-image: linear-gradient( blue, aqua);
+    text-align: center;
 }
+/* search section */
+#search {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+#search-form{
+
+}
+
+#search-btn {
+    background-color: aquamarine;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    curser: pointer;
+    font-size: 16px;
+}
+
+/* current weather section */
+#current-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
 

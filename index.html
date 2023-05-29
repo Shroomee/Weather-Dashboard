@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +10,18 @@
 </head>
 <header>
     <h1 id='background-weather'>Weather Dashboard</h1>
-       <!--Search form with input for search button-->
-    <form id="search">
-        <input type="text" name="city" placeholder="Enter a city">
-        <button type="submit">Search</button>
-    </form>
 </header>
+
 <body>
+    <!--Search form with input for search button-->
+    <section id="search">
+        <h2>Search for a City:</h2>
+        <form id="search-form">
+            <input id="search-input" type="text" name="city" placeholder="Enter a city">
+            <button id="search-btn" type="submit">Search</button>
+        </form>
+    </section>
+
     <section id="current-weather">
         <h2 id="city-details"></h2>
         <div id="emoji"></div>
@@ -36,6 +42,8 @@
             </div>
         </div>
     </section>
+
     <script src="script.js"></script>
 </body>
+
 </html>
